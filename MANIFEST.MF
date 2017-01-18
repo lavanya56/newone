@@ -1,0 +1,8 @@
+---
+applications:
+- path: javademo.war
+  name: javasample
+  memory: 512M
+  instances: 1
+  random-route: true
+  hostname : javasample
